@@ -40,3 +40,5 @@ Esse comando:
 * Cria o build da documentação.
 * Cria (ou atualiza) automaticamente o branch gh-pages no seu repositório.
 * Publica os arquivos da pasta site/ no GitHub Pages.
+
+E gera o site no caminho do seu repositorio: `https://Nome_De_Usuario.github.io/Pasta_Do_Projeto/`
