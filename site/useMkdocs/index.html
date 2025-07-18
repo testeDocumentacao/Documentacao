@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Guia de uso Mkdocs - Documentação</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Guia de uso Mkdocs";
+        var mkdocs_page_input_path = "useMkdocs.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Documentação
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../install/">Guia de instalacao</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../configurations/">Configurando Mkdocs</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Guia de uso Mkdocs</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#estrutura-basica-de-um-arquivo-markdown">Estrutura Básica de um Arquivo Markdown</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#titulos-e-hierarquia">Títulos e Hierarquia</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../about/">sobre</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentação</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Guia de uso Mkdocs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <hr />
+<h2 id="guia-detalhado-para-escrita-de-documentacao-no-mkdocs">Guia Detalhado para Escrita de Documentação no MkDocs</h2>
+<p>Este guia oferece uma explicação detalhada de como escrever sua documentação utilizando o MkDocs, cobrindo desde a estrutura básica até elementos mais avançados como formatação de texto, links e inclusão de código.</p>
+<hr />
+<h3 id="estrutura-basica-de-um-arquivo-markdown">Estrutura Básica de um Arquivo Markdown</h3>
+<p>O MkDocs utiliza <strong>Markdown</strong> para escrever o conteúdo da sua documentação. Markdown é uma linguagem de marcação leve que permite formatar texto simples de forma rápida e fácil.</p>
+<p>Todo arquivo de documentação no MkDocs é um arquivo <code>.md</code> (por exemplo, <code>introducao.md</code>, <code>instalacao.md</code>).</p>
+<hr />
+<h3 id="titulos-e-hierarquia">Títulos e Hierarquia</h3>
+<p>Títulos são cruciais para organizar seu conteúdo e torná-lo legível. No Markdown, você usa o sinal de cerquilha (<code>#</code>) para definir títulos. Quanto mais cerquilhas, menor o nível do título.</p>
+<pre><code class="language-markdown"># Título Principal (H1)
+
+## Seção Principal (H2)
+
+### Subseção (H3)
+
+#### Detalhe (H4)
+
+##### Mais Detalhe (H5)
+
+###### Seis (H6)
+</code></pre>
+<hr />
+<p>Exemplos:</p>
+<h1 id="titulo-principal-h1">Título Principal (H1)</h1>
+<h2 id="secao-principal-h2">Seção Principal (H2)</h2>
+<h3 id="subsecao-h3">Subseção (H3)</h3>
+<h4 id="detalhe-h4">Detalhe (H4)</h4>
+<h5 id="mais-detalhe-h5">Mais Detalhe (H5)</h5>
+<h6 id="seis-h6">Seis (H6)</h6>
+<hr />
+<h3 id="paragrafos-e-quebras-de-linha"><strong>Parágrafos e Quebras de Linha</strong></h3>
+<p>Para criar um novo parágrafo, basta deixar uma linha em branco entre os blocos de texto.</p>
+<pre><code>Primeiro paragrafo da documentacao.
+
+Segundo paragrafo. # Note a linha em branco entre eles.
+</code></pre>
+<p>Para uma quebra de linha sem iniciar um novo parágrafo, você pode adicionar dois espaços no final da linha anterior e então pressionar Enter.</p>
+<pre><code>Primeira linha
+Segunda linha  # mas ainda faz parte do mesmo paragrafo
+</code></pre>
+<h3 id="formatacao-de-texto"><strong>Formatação de Texto</strong></h3>
+<p>O Markdown oferece diversas opções para formatar seu texto:</p>
+<ul>
+<li><strong>Negrito</strong> Use dois asteriscos ou dois underscores antes e depois do texto.  </li>
+</ul>
+<pre><code class="language-markdow"> **Texto em negrito** ou __Texto em negrito__
+</code></pre>
+<ul>
+<li><em>Italico</em> Use um asteriscos ou um underscores antes e depois do texto.  </li>
+</ul>
+<pre><code class="language-markdow"> *Texto em italico* ou _Texto em italico_
+</code></pre>
+<ul>
+<li><strong><em>Negrito e Itálico</em></strong> Combine os caracteres (três asteriscos ou três underscores).  </li>
+</ul>
+<pre><code class="language-markdow"> ***Texto em italico*** ou ___Texto em italico___
+</code></pre>
+<ul>
+<li><strong>Monospace</strong> (para linha de código): Use um único acento grave (backtick) antes e depois do texto. Ideal para comandos, nomes de variáveis ou trechos curtos de código.</li>
+</ul>
+<p>Exemplo: Para instalar, use o comando <code>pip install mkdocs</code></p>
+<pre><code class="language-markdow">Para instalar, use o comando `pip install mkdocs`
+</code></pre>
+<h3 id="listas">Listas</h3>
+<h4 id="listas-nao-ordenadas">Listas Não Ordenadas</h4>
+<p>Use asterisco (*), hífen (-) ou sinal de adição (+) para criar listas não ordenadas.</p>
+<pre><code>* Item 1
+* Item 2
+    * Subitem 2.1
+    * Subitem 2.2
+        * Sub-subitem 2.2.1
+- Item 3
++ Item 4
+</code></pre>
+<p>Exemplo:</p>
+<ul>
+<li>Item 1</li>
+<li>Item 2<ul>
+<li>Subitem 2.1</li>
+<li>Subitem 2.2<ul>
+<li>Sub-subitem 2.2.1</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Item 3</li>
+<li>Item 4</li>
+</ul>
+<h4 id="listas-ordenadas">Listas Ordenadas</h4>
+<p>Use números seguidos de um ponto. O Markdown automaticamente ajusta a numeração.</p>
+<pre><code>1. Primeiro item
+2. Segundo item
+   1. Subitem A
+   2. Subitem B
+3. Terceiro item
+</code></pre>
+<p>Exemplo:</p>
+<ol>
+<li>Primeiro item</li>
+<li>Segundo item<ol>
+<li>Subitem A</li>
+<li>Subitem B</li>
+</ol>
+</li>
+<li>Terceiro item</li>
+</ol>
+<h3 id="links">Links</h3>
+<p>Links são fundamentais para navegar entre páginas e referenciar recursos externos.</p>
+<h4 id="links-internos-entre-paginas-da-documentacao">Links Internos (entre páginas da documentação)</h4>
+<p>Para linkar para outras páginas dentro da sua documentação, use o caminho relativo do arquivo Markdown.  </p>
+<pre><code class="language-markdow">[Ir para a Introdução](introducao.md) # Entre chaves [] fica o titulo 
+[Ver mais detalhes sobre a Instalação](instalacao/index.md) # Entre parênteses () fica o caminho
+</code></pre>
+<h4 id="links-externos">Links Externos</h4>
+<p>Para links de websites externos, inclua o protocolo (http:// ou https://).  </p>
+<pre><code class="language-markdow">[Visitar o site do MkDocs](https://www.mkdocs.org/)
+</code></pre>
+<p>Exemplo: <a href="https://www.mkdocs.org/">Visitar o site do MkDocs</a> </p>
+<h3 id="inclusao-de-imagens">Inclusão de Imagens</h3>
+<p>Para incluir imagens, a sintaxe é similar à de links, mas com um ponto de exclamação (!) no início.</p>
+<pre><code>![Texto da Imagem](caminho/para/minha/imagem.png)
+</code></pre>
+<ul>
+<li><strong>Texto da imagem:</strong> Descrição da imagem, importante para acessibilidade e caso a imagem não carregue.</li>
+<li><strong>Caminho da Imagem:</strong> Pode ser um caminho relativo dentro da sua pasta docs ou uma URL externa.</li>
+</ul>
+<h3 id="blocos-de-codigo-code-blocks">Blocos de Código (Code Blocks)</h3>
+<p>Para apresentar blocos de código com destaque e formatação adequada, use três acentos graves
+(backticks) antes e depois do bloco, e opcionalmente, o nome da linguagem para melhor destaque.</p>
+<pre><code class="language-markdow"> ```bash
+ # Este é um comando de exemplo
+ mkdocs build
+ pip install mkdocs-material
+
+ ```
+</code></pre>
+<ul>
+<li>Saida</li>
+</ul>
+<pre><code class="language-bash"># Este é um comando de exemplo
+mkdocs build
+pip install mkdocs-material
+</code></pre>
+<hr />
+<h3 id="citacoes-blockquotes">Citações (Blockquotes)</h3>
+<p>Para citar um texto, use o sinal de maior que (<code>&gt;</code>).</p>
+<pre><code class="language-markdow">&gt; &quot;Exemplo de texto.&quot;
+&gt; - Autor do texto
+</code></pre>
+<pre><code>&gt; &quot;Texto de exemplo ou citação.&quot;
+&gt; - Autor
+</code></pre>
+<h3 id="tabelas">Tabelas</h3>
+<p>Tabelas são criadas usando hífens (-) para separar o cabeçalho e barras verticais ( | ) para separar as colunas.</p>
+<table>
+<thead>
+<tr>
+<th>Cabeçalho 1</th>
+<th>Cabeçalho 2</th>
+<th>Cabeçalho 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Conteúdo 1A</td>
+<td>Conteúdo 2A</td>
+<td>Conteúdo 3A</td>
+</tr>
+<tr>
+<td>Conteúdo 1B</td>
+<td>Conteúdo 2B</td>
+<td>Conteúdo 3B</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Exemplo</li>
+</ul>
+<pre><code class="language-markdow">| Cabeçalho 1 | Cabeçalho 2 | Cabeçalho 3 |
+|-------------|-------------|-------------|
+| Conteúdo 1A | Conteúdo 2A | Conteúdo 3A |
+| Conteúdo 1B | Conteúdo 2B | Conteúdo 3B |
+</code></pre>
+<p>Você pode alinhar o conteúdo das colunas adicionando dois pontos (:) nos hífens de separação:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Alinhado à Esquerda</th>
+<th style="text-align: center;">Alinhado ao Centro</th>
+<th style="text-align: right;">Alinhado à Direita</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Item A</td>
+<td style="text-align: center;">Item B</td>
+<td style="text-align: right;">Item C</td>
+</tr>
+<tr>
+<td style="text-align: left;">Outro Item</td>
+<td style="text-align: center;">Mais Centralizado</td>
+<td style="text-align: right;">E à Direita</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Exemplo:</li>
+</ul>
+<pre><code class="language-markdow">| Alinhado à Esquerda | Alinhado ao Centro | Alinhado à Direita |
+|:--------------------|:------------------:|-------------------:|
+| Item A              | Item B             | Item C             |
+| Outro Item          | Mais Centralizado  | E à Direita        |
+</code></pre>
+<h3 id="linhas-horizontais">Linhas Horizontais</h3>
+<p>Para criar uma linha horizontal (separador visual), use três ou mais hífens (-), asteriscos (*) ou underscores (_) em uma linha separada.</p>
+<hr />
+<hr />
+<hr />
+<pre><code>---
+___
+
+***
+</code></pre>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../configurations/" class="btn btn-neutral float-left" title="Configurando Mkdocs"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../about/" class="btn btn-neutral float-right" title="sobre">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../configurations/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../about/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Guia de instalacao - Documentação</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Guia de instalacao";
+        var mkdocs_page_input_path = "install.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Documentação
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Guia de instalacao</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#1-pre-requisitos">1. Pré-requisitos</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#como-verificar-se-estao-instalados">Como verificar se estão instalados:</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2-instalacao-do-mkdocs">2. Instalação do MkDocs</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../configurations/">Configurando Mkdocs</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../useMkdocs/">Guia de uso Mkdocs</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../about/">sobre</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentação</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Guia de instalacao</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="guia-de-instalacao-do-mkdocs">Guia de Instalação do MkDocs</h1>
+<p>Este guia detalha os passos necessários para instalar o MkDocs em seu sistema. É um processo simples e rápido, que permitirá que você comece a criar sua documentação em pouco tempo.</p>
+<hr />
+<h2 id="1-pre-requisitos">1. Pré-requisitos</h2>
+<p>Antes de instalar o MkDocs, certifique-se de que você tem os seguintes softwares instalados em seu computador:</p>
+<ul>
+<li><strong>Python:</strong> O MkDocs é construído com Python, então você precisará ter o Python 3.8 ou superior.</li>
+<li><strong>pip:</strong> É o gerenciador de pacotes do Python e geralmente vem junto com a instalação do Python. Usaremos o <code>pip</code> para instalar o MkDocs.</li>
+</ul>
+<h3 id="como-verificar-se-estao-instalados">Como verificar se estão instalados:</h3>
+<p>Abra seu terminal ou prompt de comando e execute os seguintes comandos:  </p>
+<pre><code>bash python --version  
+bash pip  --version    
+</code></pre>
+<p>Caso estejam instalados voce deve ver <code>Python 3.12.3</code> e <code>pip 23.2.1 from dir/...</code> , ou a versao que estiver instalada no seu sistema. </p>
+<h2 id="2-instalacao-do-mkdocs">2. Instalação do MkDocs</h2>
+<p>Agora Com o Python e o <code>pip</code> configurados
+Execute o seguinte comando no seu terminal:<br />
+<code>pip install mkdocs</code>  </p>
+<p>Para verificar se foi instalado corretamente execute:
+<code>mkdocs --version</code><br />
+Você deverá ver a versão do MkDocs instalada ex: <code>mkdocs, version 1.4.2 from dir/...</code> </p>
+<ul>
+<li>Instalação de Temas Adicionais (Opcional)<br />
+Para ter uma melhor experiencia visual é recomendado a instalação dos tema <strong>Material for Mkdocs</strong> 
+<code>pip install mkdocs-material</code></li>
+</ul>
+<p>Caso esteja tudo ok , siga para as instruções de configuração aqui: <a href="../configurations/">Configurando Mkdocs.</a> </p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../configurations/" class="btn btn-neutral float-right" title="Configurando Mkdocs">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../configurations/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
