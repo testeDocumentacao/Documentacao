@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://testedocumentacao.github.io/Documentacao/configurations/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Configurando Mkdocs - Documentação</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Configurando Mkdocs";
+        var mkdocs_page_input_path = "configurations.md";
+        var mkdocs_page_url = "/Documentacao/configurations/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Documentação
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../install/">Guia de instalacao</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Configurando Mkdocs</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#1-criando-um-novo-projeto-mkdocs">1. Criando um Novo Projeto MkDocs</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2-visualizando-sua-documentacao">2. Visualizando sua Documentação</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../useMkdocs/">Guia de uso Mkdocs</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../about/">sobre</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentação</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Configurando Mkdocs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="configurando-o-mkdocs">Configurando o MkDocs</h1>
+<p>Este guia irá auxiliá-lo na configuração inicial do seu projeto MkDocs.</p>
+<hr />
+<h2 id="1-criando-um-novo-projeto-mkdocs">1. Criando um Novo Projeto MkDocs</h2>
+<p>Com o MkDocs já instalado, o próximo passo é criar o projeto de documentação.</p>
+<ul>
+<li>
+<p><strong>Defina o local:</strong> Navegue até o diretório onde deseja criar os arquivos base do MkDocs.
+Exemplo: <code>bash cd Documentos/</code></p>
+</li>
+<li>
+<p><strong>Crie o projeto:</strong> Execute o comando <code>mkdocs new</code> seguido do nome desejado para o seu projeto.<br />
+Exemplo: <code>bash mkdocs new meu-projeto-docs</code>. Isso criará uma nova pasta com o nome escolhido do projeto Ex: <code>meu-projeto-docs</code>, com a estrutura básica:</p>
+</li>
+</ul>
+<pre><code>    meu-projeto-docs/
+    ├── mkdocs.yml
+    └── docs/
+        └── index.md
+</code></pre>
+<ul>
+<li><strong>Navegue até o diretório do projeto:</strong>
+    <code>bash cd meu-projeto-docs</code></li>
+</ul>
+<hr />
+<h2 id="2-visualizando-sua-documentacao">2. Visualizando sua Documentação</h2>
+<p>Para ver sua documentação em tempo real enquanto você a edita:</p>
+<ul>
+<li>
+<p><strong>Inicie o servidor de desenvolvimento:</strong> Dentro do diretório do seu projeto, execute:<br />
+<code>bash mkdocs serve</code>, Você verá uma mensagem indicando o endereço local do servidor, como:
+<code>INFO - [HH:MM:SS] Serving on http://127.0.0.1:8000/</code></p>
+</li>
+<li>
+<p><strong>Especifique uma porta diferente (se necessário):</strong> Caso a porta padrão (8000) esteja em uso, você pode indicar uma porta alternativa:
+    <code>bash
+    mkdocs serve --dev-addr 0.0.0.0:8001</code>
+    Substitua <code>8001</code> pela porta desejada.</p>
+</li>
+<li>
+<p><strong>Acesse no navegador:</strong> Abra seu navegador web e navegue para o endereço indicado (ex: <code>http://127.0.0.1:8000/</code> ou <code>http://127.0.0.1:8001/</code>).</p>
+</li>
+</ul>
+<p>Com esses passos, você terá sua primeira documentação MkDocs funcionando e pronta para ser editada!</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../install/" class="btn btn-neutral float-left" title="Guia de instalacao"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../useMkdocs/" class="btn btn-neutral float-right" title="Guia de uso Mkdocs">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../install/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../useMkdocs/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
