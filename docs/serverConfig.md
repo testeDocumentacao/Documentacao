@@ -42,3 +42,19 @@ Esse comando:
 * Publica os arquivos da pasta site/ no GitHub Pages.
 
 E gera o site no caminho do seu repositorio: `https://Nome_De_Usuario.github.io/Pasta_Do_Projeto/`
+
+## Novas publicações
+Para novas publicações repita os passos comuns para atualizar seu repositorio local e fasça o commit:
+```
+git add .
+git commit -m "Atualização da documentação"
+git push
+```
+Publique novamente a página: `mkdocs gh-deploy`  
+Esse comando:
+
+* Recria a pasta site/ (build da documentação).
+* Atualiza o branch gh-pages no seu repositório.
+* Substitui o conteúdo antigo do site pelo novo.
+
+Acesse novamente o site e **atualize o site** (F5).
