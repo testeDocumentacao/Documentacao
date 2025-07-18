@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://testedocumentacao.github.io/Documentacao/configurations/">
+        <link rel="canonical" href="https://testedocumentacao.github.io/Documentacao/serverConfig/">
       
       
-        <link rel="prev" href="../install/">
+        <link rel="prev" href="../useMkdocs/">
       
       
-        <link rel="next" href="../useMkdocs/">
+        <link rel="next" href="../about/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Configurando MkDocs - Documentação</title>
+        <title>Configurando repositorio - Documentação</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#configurando-o-mkdocs" class="md-skip">
+        <a href="#configurando-repositorio-e-publicando-no-github-pages" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Configurando MkDocs
+              Configurando repositorio
             
           </span>
         </div>
@@ -278,32 +278,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Configurando MkDocs
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../configurations/" class="md-nav__link">
         
   
   
@@ -314,44 +292,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1-criando-um-novo-projeto-mkdocs" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. Criando um Novo Projeto MkDocs
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-visualizando-sua-documentacao" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Visualizando sua Documentação
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -384,10 +324,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../serverConfig/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Configurando repositorio
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -398,6 +360,62 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pre-requisitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pré-requisitos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inicializando-repositorio-local" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inicializando repositório local
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#construindo-o-site-estatico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Construindo o site estático
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publicando" class="md-nav__link">
+    <span class="md-ellipsis">
+      Publicando
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -459,18 +477,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-criando-um-novo-projeto-mkdocs" class="md-nav__link">
+  <a href="#pre-requisitos" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Criando um Novo Projeto MkDocs
+      Pré-requisitos
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-visualizando-sua-documentacao" class="md-nav__link">
+  <a href="#inicializando-repositorio-local" class="md-nav__link">
     <span class="md-ellipsis">
-      2. Visualizando sua Documentação
+      Inicializando repositório local
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#construindo-o-site-estatico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Construindo o site estático
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publicando" class="md-nav__link">
+    <span class="md-ellipsis">
+      Publicando
     </span>
   </a>
   
@@ -492,50 +528,41 @@
 
 
 
-<h1 id="configurando-o-mkdocs">Configurando o MkDocs</h1>
-<p>Este guia irá auxiliá-lo na configuração inicial do seu projeto MkDocs.</p>
-<hr />
-<h2 id="1-criando-um-novo-projeto-mkdocs">1. Criando um Novo Projeto MkDocs</h2>
-<p>Com o MkDocs já instalado, o próximo passo é criar o projeto de documentação.</p>
+<h1 id="configurando-repositorio-e-publicando-no-github-pages">Configurando repositório e publicando no GitHub Pages</h1>
+<p>Após criar sua documentação com o <strong>MkDocs</strong>, você pode publicá-la gratuitamente usando o <strong>GitHub Pages</strong>, que permite hospedar sites estáticos diretamente de um repositório GitHub.</p>
+<h2 id="pre-requisitos">Pré-requisitos</h2>
 <ul>
-<li>
-<p><strong>Defina o local:</strong> Navegue até o diretório onde deseja criar os arquivos base do MkDocs.
-Exemplo: <code>bash cd Documentos/</code></p>
-</li>
-<li>
-<p><strong>Crie o projeto:</strong> Execute o comando <code>mkdocs new</code> seguido do nome desejado para o seu projeto.<br />
-Exemplo: <code>bash mkdocs new meu-projeto-docs</code>. Isso criará uma nova pasta com o nome escolhido do projeto Ex: <code>meu-projeto-docs</code>, com a estrutura básica:</p>
-</li>
+<li>Conta no <a href="https://github.com/">GitHub</a>.</li>
+<li>Repositório criado para o seu projeto.</li>
+<li>Git instalado na máquina.</li>
+<li>Documentação configurada com MkDocs.</li>
 </ul>
-<pre><code>    meu-projeto-docs/
-    ├── mkdocs.yml
-    └── docs/
-        └── index.md
+<hr />
+<h2 id="inicializando-repositorio-local">Inicializando repositório local</h2>
+<p>Dentro do diretório do seu projeto, inicialize o Git e conecte ao repositório remoto:</p>
+<pre><code class="language-bash">git init
+git remote add origin https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
 </code></pre>
+<p>Adicione e envie o projeto inicial aós fazer as configurações iniciais do github em sua máquina local<br />
+( nome de usuario , e-mail , senha e o token para enviar os dados )</p>
+<pre><code class="language-bash">git add .
+git commit -m &quot;Versão inicial da documentação com MkDocs&quot;
+git push -u origin main
+</code></pre>
+<h2 id="construindo-o-site-estatico">Construindo o site estático</h2>
+<p>Antes de publicar, é necessário gerar os arquivos estáticos do seu site:</p>
+<pre><code># Este comando cria a pasta 'site/' com os arquivos finais
+mkdocs build
+</code></pre>
+<h2 id="publicando">Publicando</h2>
+<p>O MkDocs facilita a publicação usando o comando:
+<code>mkdocs gh-deploy</code></p>
+<p>Esse comando:</p>
 <ul>
-<li><strong>Navegue até o diretório do projeto:</strong>
-    <code>bash cd meu-projeto-docs</code></li>
+<li>Cria o build da documentação.</li>
+<li>Cria (ou atualiza) automaticamente o branch gh-pages no seu repositório.</li>
+<li>Publica os arquivos da pasta site/ no GitHub Pages.</li>
 </ul>
-<hr />
-<h2 id="2-visualizando-sua-documentacao">2. Visualizando sua Documentação</h2>
-<p>Para ver sua documentação em tempo real enquanto você a edita:</p>
-<ul>
-<li>
-<p><strong>Inicie o servidor de desenvolvimento:</strong> Dentro do diretório do seu projeto, execute:<br />
-<code>bash mkdocs serve</code>, Você verá uma mensagem indicando o endereço local do servidor, como:
-<code>INFO - [HH:MM:SS] Serving on http://127.0.0.1:8000/</code></p>
-</li>
-<li>
-<p><strong>Especifique uma porta diferente (se necessário):</strong> Caso a porta padrão (8000) esteja em uso, você pode indicar uma porta alternativa:
-    <code>bash
-    mkdocs serve --dev-addr 0.0.0.0:8001</code>
-    Substitua <code>8001</code> pela porta desejada.</p>
-</li>
-<li>
-<p><strong>Acesse no navegador:</strong> Abra seu navegador web e navegue para o endereço indicado (ex: <code>http://127.0.0.1:8000/</code> ou <code>http://127.0.0.1:8001/</code>).</p>
-</li>
-</ul>
-<p>Com esses passos, você terá sua primeira documentação MkDocs funcionando e pronta para ser editada!</p>
 
 
 

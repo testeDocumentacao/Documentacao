@@ -1,11 +1,14 @@
 site_name: Documentação 
+site_url: https://testedocumentacao.github.io/Documentacao/
 
 theme:
- name: readthedocs
- 
+  name: material
+  
 nav:
   - Home: index.md
-  - Guia de instalacao: install.md
-  - Configurando Mkdocs: configurations.md
-  - Guia de uso Mkdocs: useMkdocs.md
-  - sobre: about.md
+  - MkDocs:
+    - Guia de instalação: install.md
+    - Configurando MkDocs: configurations.md
+    - Guia de uso MkDocs: useMkdocs.md
+    - Configurando repositorio: serverConfig.md
+  - Sobre: about.md
