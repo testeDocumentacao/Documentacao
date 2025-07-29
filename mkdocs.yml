@@ -8,7 +8,7 @@ markdown_extensions:
 
 theme:
   name: material
-  logo: Logo_UFJF.png
+  logo: img/Logo_UFJF.png
   
 nav:
   - Home: index.md

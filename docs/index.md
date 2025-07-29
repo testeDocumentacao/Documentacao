@@ -1,4 +1,8 @@
-![ ](img/Logo_UFJF.png){width="250"}
+<div align="center">
+<img src="img/Logo_UFJF.png" alt=" " width="35%" >
+</div>
+
+
 # Bem-vindo à Documentação de Modelagem Computacional e Engenharia Computacional - UFJF 
 ---
 
