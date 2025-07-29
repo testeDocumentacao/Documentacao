@@ -1,5 +1,5 @@
-# Bem-vindo à Documentação de Modelagem Computacional e Engenharia Computacional - UFJF
-
+![ ](img/Logo_UFJF.png){width="250"}
+# Bem-vindo à Documentação de Modelagem Computacional e Engenharia Computacional - UFJF 
 ---
 
 Seja bem-vindo(a) à página de documentação dedicada aos usuários dos recursos de **Modelagem Computacional** e

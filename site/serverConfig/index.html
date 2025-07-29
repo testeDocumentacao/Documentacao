@@ -412,6 +412,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#novas-publicacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Novas publicações
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -512,6 +521,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#novas-publicacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Novas publicações
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -564,6 +582,20 @@ mkdocs build
 <li>Publica os arquivos da pasta site/ no GitHub Pages.</li>
 </ul>
 <p>E gera o site no caminho do seu repositorio: <code>https://Nome_De_Usuario.github.io/Pasta_Do_Projeto/</code></p>
+<h2 id="novas-publicacoes">Novas publicações</h2>
+<p>Para novas publicações repita os passos comuns para atualizar seu repositorio local e fasça o commit:</p>
+<pre><code>git add .
+git commit -m &quot;Atualização da documentação&quot;
+git push
+</code></pre>
+<p>Publique novamente a página: <code>mkdocs gh-deploy</code><br />
+Esse comando:</p>
+<ul>
+<li>Recria a pasta site/ (build da documentação).</li>
+<li>Atualiza o branch gh-pages no seu repositório.</li>
+<li>Substitui o conteúdo antigo do site pelo novo.</li>
+</ul>
+<p>Acesse novamente o site e <strong>atualize o site</strong> (F5).</p>
 
 
 

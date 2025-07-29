@@ -1,8 +1,14 @@
-site_name: Documentação 
+site_name: Documentação  
 site_url: https://testedocumentacao.github.io/Documentacao/
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
 
 theme:
   name: material
+  logo: Logo_UFJF.png
   
 nav:
   - Home: index.md
