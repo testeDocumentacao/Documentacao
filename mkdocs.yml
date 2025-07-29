@@ -12,9 +12,14 @@ theme:
   
 nav:
   - Home: index.md
+  
   - MkDocs:
-    - Guia de instalação: install.md
-    - Configurando MkDocs: configurations.md
-    - Guia de uso MkDocs: useMkdocs.md
-    - Configurando repositorio: serverConfig.md
+    - Guia de instalação: mkdocs/install.md
+    - Configurando MkDocs: mkdocs/configurations.md
+    - Guia de uso MkDocs: mkdocs/useMkdocs.md
+    - Configurando repositorio: mkdocs/serverConfig.md
+    
+  - Check-in UFJF:
+    - Guia de uso: ticket/ticket_ufjf.md
+    
   - Sobre: about.md
