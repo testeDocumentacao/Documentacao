@@ -2,26 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://testedocumentacao.github.io/Documentacao/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-31</lastmod>
     </url>
     <url>
          <loc>https://testedocumentacao.github.io/Documentacao/about/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-31</lastmod>
     </url>
     <url>
-         <loc>https://testedocumentacao.github.io/Documentacao/configurations/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <loc>https://testedocumentacao.github.io/Documentacao/mkdocs/configurations/</loc>
+         <lastmod>2025-07-31</lastmod>
     </url>
     <url>
-         <loc>https://testedocumentacao.github.io/Documentacao/install/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <loc>https://testedocumentacao.github.io/Documentacao/mkdocs/install/</loc>
+         <lastmod>2025-07-31</lastmod>
     </url>
     <url>
-         <loc>https://testedocumentacao.github.io/Documentacao/serverConfig/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <loc>https://testedocumentacao.github.io/Documentacao/mkdocs/serverConfig/</loc>
+         <lastmod>2025-07-31</lastmod>
     </url>
     <url>
-         <loc>https://testedocumentacao.github.io/Documentacao/useMkdocs/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <loc>https://testedocumentacao.github.io/Documentacao/mkdocs/useMkdocs/</loc>
+         <lastmod>2025-07-31</lastmod>
+    </url>
+    <url>
+         <loc>https://testedocumentacao.github.io/Documentacao/ticket/ticket_ufjf/</loc>
+         <lastmod>2025-07-31</lastmod>
     </url>
 </urlset>
