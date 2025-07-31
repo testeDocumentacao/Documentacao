@@ -19,7 +19,7 @@ nav:
     - Guia de uso MkDocs: mkdocs/useMkdocs.md
     - Configurando repositorio: mkdocs/serverConfig.md
     
-  - Check-in UFJF:
+  - Ticket UFJF:
     - Guia de uso: ticket/ticket_ufjf.md
     
   - Sobre: about.md
